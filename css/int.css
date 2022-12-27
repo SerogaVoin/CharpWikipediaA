@@ -1,0 +1,58 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: black;
+	color: white;
+}
+header{
+	display: flex;
+	justify-content: center;
+}
+.int, .naz{
+     margin-right: 25px;
+     display: inline-block;
+     vertical-align: middle; 
+}
+.naz li{
+	margin-right: 25px; 
+	display: inline-block;
+	vertical-align: middle;
+}
+.naz a{
+	vertical-align: middle;
+	font-family: arial;
+	font-size: 15px;
+	color: white;
+	text-decoration: none;
+}
+.naz a:hover{
+	color: #26C4FF
+}
+.int h2{
+	font-family: arial;
+	font-size: 25px;
+	vertical-align: middle;
+	color: white;
+}
+.vpr{
+	margin-right: 25px;
+     display: inline-block;
+     vertical-align: middle;
+}
+.vpr li{
+	margin-right: 25px; 
+	display: inline-block;
+	vertical-align: middle;
+}
+.vpr a{
+	vertical-align: middle;
+	font-family: arial;
+	font-size: 15px;
+	color: white;
+	text-decoration: none;
+}
+.vpr a:hover{
+	color: #26C4FF
+}

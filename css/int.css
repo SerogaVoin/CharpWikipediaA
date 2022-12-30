@@ -10,6 +10,13 @@ header{
 	display: flex;
 	justify-content: center;
 }
+main{
+	justify-content: center;
+}
+img{
+	
+	border: 1px solid grey;
+}
 .int, .naz{
      margin-right: 25px;
      display: inline-block;
@@ -36,6 +43,18 @@ header{
 	vertical-align: middle;
 	color: white;
 }
+.text h2{
+	font-family: arial;
+	font-size: 22px;
+	vertical-align: middle;
+	color: white;
+}
+.text h4{
+	font-family: arial;
+	font-size: 18px;
+	vertical-align: middle;
+	color: white;
+}
 .vpr{
 	margin-right: 25px;
      display: inline-block;
@@ -55,4 +74,15 @@ header{
 }
 .vpr a:hover{
 	color: #26C4FF
+}
+.text{
+	font-family: arial;
+	font-size: 15px;
+	text-align: center;
+	vertical-align: middle;
+	color: white;
+}
+.im-center{
+	display: block;
+	margin: auto;
 }
